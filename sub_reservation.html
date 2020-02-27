@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>네버랜드</title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/nanumsquareb.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/sub_2.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".main_m li").hover(function() {
+               $(".hide_1", this).stop().slideToggle(300);
+            });
+        });
+        
+        $(document).ready(function() {
+            $(".sub_m li").hover(function() {
+               $(".hide_2", this).stop().slideToggle(300);
+            });
+        });
+        
+        $(document).ready(function() {
+            $(".sub_m2 li").hover(function() {
+               $(".hide_3", this).stop().slideToggle(300);
+            });
+        });
+    </script>
+    <style>
+        .hide_1{
+            font-size: 16px;
+            padding: 12px;
+            transform:translateX(-10%);
+            display: none;
+            
+        }
+        .hide_1 li{
+            padding: 6px;
+        }
+        .hide_2{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 12px;
+            transform:translateX(-10%);
+            display: none;
+        }
+        .hide_2 li{
+            padding: 6px;
+        }
+        .hide_3{
+            font-size: 16px;
+            padding: 12px;
+            transform:translateX(-10%);
+            display: none;
+        }
+        .hide_3 li{
+            text-align: center;
+            padding: 6px;
+            font-weight: bold;
+        }
+        .hide_3 a{
+            color:#39445e;
+        }
+    </style>
+</head>
+<body>
+	
+	<div class="header">
+	
+		<div class="top_menu">
+		    <div class="inner">
+		    	<h1><a href="http://gitul.dothome.co.kr/neverland/main.html"><img src="images/top_logo.png" alt="NeverLand_logo"></a></h1>
+                <div class="gnb">
+                    <ul>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_invitation.html">STORY</a></li>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_news.html">NEWS</a></li>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_direction.html">GUIDE</a></li>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_circus.html">CONTENTS</a></li>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_FAQ.html">FAQ</a></li>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_reservation.html">SMART 예약</a></li>
+                    </ul>
+                </div>
+		    </div>
+		</div>
+		<div class="reservation_visual">
+        	<div class="inner">
+        		<div class="reservation_text">
+        			<span>TICKET</span>
+        			<img src="images/main_x.png" alt="x">
+        			<h2>스마트 예약</h2>
+        			<strong>RESERATION</strong>
+        		</div>
+        	</div>
+        </div>
+	</div>
+		
+	<div class="container">
+			
+        <div class="lnb">
+			<div class="inner">
+				<a class="home" href="http://gitul.dothome.co.kr/neverland/main.html"><img src="images/home.png" alt="home"></a>
+				<ul class="main_m">
+                    <li class="bold">
+                        <a href="#">
+                            TICKET
+                            <img src="images/lnb_botton.png" alt="botton">
+                        </a>
+                        <ul class="hide_1">
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_invitation.html">STORY</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_news.html">NEWS</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_direction.html">GUIDE</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_circus.html">CONTENTS</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_FAQ.html">FAQ</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_reservation.html">TICKET</a></li>
+                        </ul>
+                    </li>
+				</ul>
+				<ul class="sub_m">
+                    <li class="bold">
+                        <a href="#">
+                            스마트예약
+<!--                            <img src="images/lnb_botton.png" alt="botton">-->
+                        </a>
+<!--
+                        <ul class="hide_2">
+                            <li><a href="sub_circus.html">FESTIVAL</a></li>
+                            <li><a href="#">ATTRACTION</a></li>
+                            <li><a href="#">RESTRAUNT</a></li>
+                            <li><a href="#">GIFT SHOP</a></li>
+                        </ul>
+-->
+                    </li>
+				</ul>
+
+			</div>
+			<div class="smart_reservation">
+				<div class="inner">
+					<div class="sub_tit">
+                    	스마트예약
+                    <div class="sub_p">모바일 앱으로 티켓 구매하고 네버랜드로 바로 입장하세요!</div>
+                	</div>
+                	<div class="ticket_01">
+                		<img src="images/ticket_01.png" alt="ticket_01">
+                		<div class="ticket_text">
+                			<strong>네버랜드에서 즐기는 완벽한 하루!</strong>
+                			<p>종일 이용권 ㅣ OPEN 10:00  CLOSE 23:00</p>
+                			<p>애프터 이용권 ㅣ OPEN 16:00  CLOSE 23:00</p>
+                			<a href="#">예약하기</a>
+                		</div>
+                	</div>
+                	<div class="ticket_02">
+                		<img src="images/ticket_02.png" alt="ticket_02">
+                		<div class="ticket_text">
+                			<strong>페어리 페스타</strong>
+                			<p>요정들의 축제에서 펼쳐지는</p>
+                			<p>환상적인 퍼포먼스와 서커스를 경험해보세요!</p>
+                			<a href="#">예약하기</a>
+                		</div>
+                	</div>
+                	<div class="ticket_03">
+                		<img src="images/ticket_03.png" alt="ticket_03">
+                		<div class="ticket_text">
+                			<strong>페어리 빌리지</strong>
+                			<p>요정들이 살고 있는 마을에서 추억이 깃든 하루를 보내세요!</p>
+                			<p>요정들이 사는 마을을 직접 구경하고 체험하실 준비 되셨나요?</p>
+                			<a href="#">예약하기</a>
+                		</div>
+                	</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+	<div class="footer">
+        
+			<div class="footer_top">
+				<div class="inner">
+					<div class="sns">
+						<ul>
+							<li><a href="https://twitter.com/"><img src="images/twitter.png" alt="twitter"></a></li>
+							<li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a></li>
+							<li><a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube"></a></li>
+						</ul>
+					</div>
+					<div class="lan_slect">
+						<div class="form_design">
+							<select name="" id="">
+								<option value="">KOREAN</option>
+								<option value="">ENGLISH</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_main">
+				<div class="inner">
+					<a href="http://gitul.dothome.co.kr/neverland/main.html"><img src="images/footer_logo.png" alt="never_logo"></a>
+					<div class="fnb">
+						<ul>
+							<li><a href="#">회사소개</a></li>
+							<li><a href="#">이용약관</a></li>
+							<li><a href="#">개인정보처리방침</a></li>
+							<li><a href="#">채용문의</a></li>
+							<li><a href="#">사이트 맵</a></li>
+						</ul>
+					</div>
+					<div class="adress">
+						<p>
+							서울특별시 서초구 바우뫼로 87 네버(주)<br>
+							대표이사 : 이기철 | 사업자등록번호 : 123-45-6789 | 통신판매업 신고번호 : 제101-요정 킹더-01호 | 사업자정보확인<br>
+							고객상담센터 : 010-6435-4605(유료)<br>
+							Copyright © 2018 NEVER LAND. All rights reserved.
+						</p>
+					</div>
+				</div>
+			</div>
+        
+    	</div>
+	
+	
+</body>
+</html>

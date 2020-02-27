@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>네버랜드</title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/nanumsquareb.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".main_m li").hover(function() {
+               $(".hide_1", this).stop().slideToggle(300);
+            });
+        });
+        
+        $(document).ready(function() {
+            $(".sub_m li").hover(function() {
+               $(".hide_2", this).stop().slideToggle(300);
+            });
+        });
+        
+        $(document).ready(function() {
+            $(".sub_m2 li").hover(function() {
+               $(".hide_3", this).stop().slideToggle(300);
+            });
+        });
+    </script>
+    <style>
+        .hide_1{
+            font-size: 16px;
+            padding: 12px;
+            transform:translateX(-10%);
+            display: none;
+            
+        }
+        .hide_1 li{
+            padding: 6px;
+        }
+        .hide_2{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 12px;
+            transform:translateX(-10%);
+            display: none;
+        }
+        .hide_2 li{
+            padding: 6px;
+        }
+        .hide_3{
+            font-size: 16px;
+            padding: 12px;
+            transform:translateX(-10%);
+            display: none;
+        }
+        .hide_3 li{
+            text-align: center;
+            padding: 6px;
+            font-weight: bold;
+        }
+        .hide_3 a{
+            color:#39445e;
+        }
+    </style>
+</head>
+<body>
+	
+	<div class="header">
+	
+		<div class="top_menu">
+		    <div class="inner">
+		    	<h1><a href="http://gitul.dothome.co.kr/neverland/main.html"><img src="images/top_logo.png" alt="NeverLand_logo"></a></h1>
+                <div class="gnb">
+                    <ul>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_invitation.html">STORY</a></li>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_news.html">NEWS</a></li>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_direction.html">GUIDE</a></li>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_circus.html">CONTENTS</a></li>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_FAQ.html">FAQ</a></li>
+                        <li><a href="http://gitul.dothome.co.kr/neverland/sub_reservation.html">SMART 예약</a></li>
+                    </ul>
+                </div>
+		    </div>
+		</div>
+		<div class="main_visual">
+			<div class="inner">
+				<div class="festa_text_sub" data-aos="fade-up" data-aos-duration="1000">
+					<p>요정의 축제</p>
+					<img src="images/fairy_festa_logo.png" alt="페어리페스타">
+				</div>
+			</div>
+			<div class="main_visual_jq" data-aos="fade-up" data-aos-duration="800"></div>
+			<div class="main_visual_jq2" data-aos="fade-down" data-aos-duration="1200"></div>
+        	<div class="main_visual_jq3" data-aos="fade-down" data-aos-duration="1600"></div>
+        	<div class="main_visual_jq4" data-aos="fade-down" data-aos-duration="2500"></div>
+        	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+			<script>
+				AOS.init({
+				easing: 'ease-out-back',
+				duration: 1200
+				});
+			</script>
+		</div>
+	</div>
+		
+	<div class="container">
+			
+        <div class="lnb">
+			<div class="inner">
+				<a class="home" href="http://gitul.dothome.co.kr/neverland/main.html"><img src="images/home.png" alt="home"></a>
+				<ul class="main_m">
+                    <li class="bold">
+                        <a href="#">
+                            NEWS
+                            <img src="images/lnb_botton.png" alt="botton">
+                        </a>
+                        <ul class="hide_1">
+                            <li><a href="http://http://gitul.dothome.co.kr/neverland/sub_invitation.html">STORY</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_news.html">NEWS</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_direction.html">GUIDE</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_circus.html">CONTENTS</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_FAQ.html">FAQ</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_reservation.html">TICKET</a></li>
+                        </ul>
+                    </li>
+				</ul>
+				<ul class="sub_m2">
+                    <li class="bold">
+                        <a href="#">
+                            초대장 받기
+                            <img src="images/lnb_botton.png" alt="botton">
+                        </a>
+                        <ul class="hide_3">
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_invitation.html">초대장 받기</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_character.html">요정 친구들</a></li>
+                        </ul>
+                    </li>
+				</ul>
+				
+			</div>
+			<div class="invite">
+				<div class="inner">
+                    <div class="sub_tit">
+                    	초대장
+                    	<div class="sub_p">페어리 페스타에 초대되신 것을 환영합니다!</div>
+                    </div>
+					<div class="invite_img">
+						<img src="images/kingderinvite_img.png" alt="킹더">
+					</div>
+					<div class="invite_text">
+						<p>
+							새로운 요정왕 킹더의 탄생으로 <br>
+							요정의 나라는 축제 분위기입니다.
+						</p>
+						<p>
+							킹더는 지구에 존재하는 모든 생명들이 <br>
+							같이 축제를 즐겼으면 하는 마음으로 <br>
+							오래된 나무들과 귀여운 동물 친구들, <br>
+							그리고 사람들을 초대하기로 하였습니다.
+						</p>
+						<p>
+							당신에게도 초대장을 보내고 싶어하네요! <br>
+							<span>페어리 페스타</span>를 같이 즐기러 가시겠어요?
+						</p>
+					</div>
+					<a href="#">초대장 받기</a>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+	<div class="footer">
+        
+			<div class="footer_top">
+				<div class="inner">
+					<div class="sns">
+						<ul>
+							<li><a href="https://twitter.com/"><img src="images/twitter.png" alt="twitter"></a></li>
+							<li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a></li>
+							<li><a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube"></a></li>
+						</ul>
+					</div>
+					<div class="lan_slect">
+						<div class="form_design">
+							<select name="" id="">
+								<option value="">KOREAN</option>
+								<option value="">ENGLISH</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_main">
+				<div class="inner">
+					<a href="http://gitul.dothome.co.kr/neverland/main.html"><img src="images/footer_logo.png" alt="never_logo"></a>
+					<div class="fnb">
+						<ul>
+							<li><a href="#">회사소개</a></li>
+							<li><a href="#">이용약관</a></li>
+							<li><a href="#">개인정보처리방침</a></li>
+							<li><a href="#">채용문의</a></li>
+							<li><a href="#">사이트 맵</a></li>
+						</ul>
+					</div>
+					<div class="adress">
+						<p>
+							서울특별시 서초구 바우뫼로 87 네버(주)<br>
+							대표이사 : 이기철 | 사업자등록번호 : 123-45-6789 | 통신판매업 신고번호 : 제101-요정 킹더-01호 | 사업자정보확인<br>
+							고객상담센터 : 010-6435-4605(유료)<br>
+							Copyright © 2018 NEVER LAND. All rights reserved.
+						</p>
+					</div>
+				</div>
+			</div>
+        
+    	</div>
+     
+
+</body>
+</html>

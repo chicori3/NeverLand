@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>네버랜드</title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/nanumsquareb.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".main_m li").hover(function() {
+               $(".hide_1", this).stop().slideToggle(300);
+            });
+        });
+        
+        $(document).ready(function() {
+            $(".sub_m li").hover(function() {
+               $(".hide_2", this).stop().slideToggle(300);
+            });
+        });
+        
+        $(document).ready(function() {
+            $(".sub_m2 li").hover(function() {
+               $(".hide_3", this).stop().slideToggle(300);
+            });
+        });
+    </script>
+    <style>
+        .hide_1{
+            font-size: 16px;
+            padding: 12px;
+            transform:translateX(-10%);
+            display: none;
+            
+        }
+        .hide_1 li{
+            padding: 6px;
+        }
+        .hide_2{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 12px;
+            transform:translateX(-10%);
+            display: none;
+        }
+        .hide_2 li{
+            padding: 6px;
+        }
+        .hide_3{
+            font-size: 16px;
+            padding: 12px;
+            transform:translateX(-10%);
+            display: none;
+        }
+        .hide_3 li{
+            text-align: center;
+            padding: 6px;
+            font-weight: bold;
+        }
+        .hide_3 a{
+            color:#39445e;
+        }
+    </style>
+</head>
+<body>
+	
+	<div class="header">
+		
+		<div class="top_menu">
+		    <div class="inner">
+		    	<h1><a href="http://gitul.dothome.co.kr/neverland/main.html"><img src="images/top_logo.png" alt="NeverLand_logo"></a></h1>
+		        <div class="gnb">
+					<ul>
+					    <li><a href="http://gitul.dothome.co.kr/neverland/sub_invitation.html">STORY</a></li>
+						<li><a href="http://gitul.dothome.co.kr/neverland/sub_news.html">NEWS</a></li>
+						<li><a href="http://gitul.dothome.co.kr/neverland/sub_direction.html">GUIDE</a></li>
+						<li><a href="http://gitul.dothome.co.kr/neverland/sub_circus.html">CONTENTS</a></li>
+						<li><a href="http://gitul.dothome.co.kr/neverland/sub_FAQ.html">FAQ</a></li>
+						<li><a href="http://gitul.dothome.co.kr/neverland/sub_reservation.html">SMART 예약</a></li>
+					</ul>
+		        </div>
+		    </div>
+		</div>
+		<div class="main_visual">
+			<div class="inner">
+				<div class="festa_text_sub" data-aos="fade-up" data-aos-duration="1000">
+					<p>요정의 축제</p>
+					<img src="images/fairy_festa_logo.png" alt="페어리페스타">
+				</div>
+			</div>
+			<div class="main_visual_jq" data-aos="fade-up" data-aos-duration="800"></div>
+			<div class="main_visual_jq2" data-aos="fade-down" data-aos-duration="1200"></div>
+        	<div class="main_visual_jq3" data-aos="fade-down" data-aos-duration="1600"></div>
+        	<div class="main_visual_jq4" data-aos="fade-down" data-aos-duration="2500"></div>
+        	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+			<script>
+				AOS.init({
+				easing: 'ease-out-back',
+				duration: 1200
+				});
+			</script>
+		</div>
+		
+	</div>
+	
+	<div class="container">
+	
+        <div class="lnb">
+			<div class="inner">
+				<a class="home" href="http://gitul.dothome.co.kr/neverland/main.html"><img src="images/home.png" alt="home"></a>
+				<ul class="main_m">
+                    <li class="bold">
+                        <a href="#">
+                            STORY
+                            <img src="images/lnb_botton.png" alt="botton">
+                        </a>
+                        <ul class="hide_1">
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_invitation.html">STORY</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_news.html">NEWS</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_direction.html">GUIDE</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_circus.html">CONTENTS</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_FAQ.html">FAQ</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_reservation.html">TICKET</a></li>
+                        </ul>
+                    </li>
+				</ul>
+				<ul class="sub_m2">
+                    <li class="bold">
+                        <a href="#">
+                            요정 친구들
+                            <img src="images/lnb_botton.png" alt="botton">
+                        </a>
+                        <ul class="hide_3">
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_invitation.html">초대장 받기</a></li>
+                            <li><a href="http://gitul.dothome.co.kr/neverland/sub_character.html">요정 친구들</a></li>
+                        </ul>
+                    </li>
+				</ul>
+				
+			</div>
+		<div class="sub_tit">
+		    <div class="inner">
+               	요정 친구들
+               	<div class="sub_p">
+            		네버랜드의 귀엽고 깜찍한 요정 친구들을 소개합니다!
+        		</div>
+            </div>
+        </div>
+		<div class="fairy_friend">
+			<div class="inner">
+				<div class="hender">
+					<img src="images/hender_img.png" alt="헨더">
+					<dl>
+						<dt>헨더</dt>
+						<dd>
+							호기심 많은 꼬마 요정!<br>
+							신기한 물건을 발견하면 왕성한<br>
+							호기심이 발동하며, 하고 싶은 것은 해야<br>
+							직성이 풀리는 요정으로, 요정 마을의<br>
+							분위기 메이커에요. 
+						</dd>
+					</dl>
+				</div>
+				<div class="wonder">
+					<img src="images/winder_img.png" alt="원더">
+					<dl>
+						<dt>원더</dt>
+						<dd>
+							노래를 좋아하는 유쾌한 요정!<br>
+							비록 음치지만 노래를 좋아하고<br>
+							여기저기 참견하여 친구들을 귀찮게<br>
+							하기도 하지만 언제나 웃음을 잃지<br>
+							않는 밝은 요정이에요. 
+						</dd>
+					</dl>
+				</div>
+				<div class="kingder">
+					<img src="images/kingder_img.png" alt="킹더">
+					<dl>
+						<dt>킹더</dt>
+						<dd>
+							장난끼가 많은 요정의 왕!<br>
+							요정의 나라를 다스리는 왕이지만,<br>
+							절대 무섭지 않은 친절하고 착한<br>
+							요정의 왕이에요. 항상 이상한 가면을 쓰고<br>
+							다녀서 아무도 얼굴을 모르는 미스터리한<br>
+							요정들의 왕 킹더에요.
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div> 
+		<div class="animal_friend">
+			<div class="inner">
+				<h3>동물 친구들</h3>
+				<div class="ramggu">
+					<img src="images/ramggu_img.png" alt="람꾸">
+					<dl>
+						<dt>람꾸</dt>
+						<dd>
+							작은 덩치지만, 마음이 넓어<br>
+							친구들을 잘 챙겨주는 귀여운<br>
+							동물 친구 람꾸에요.
+						</dd>
+					</dl>
+				</div>
+				<div class="haggu">
+					<img src="images/haggu_img.png" alt="하꾸">
+					<dl>
+						<dt>하꾸</dt>
+						<dd>
+							움직이는 걸 좋아하고 심부름도<br>
+							곧잘 맡아서 하는 언제나 긍정적인<br>
+							마인드를 가진 친구에요.
+						</dd>
+					</dl>
+				</div>
+				<div class="saggu">
+					<img src="images/saggu_img.png" alt="사꾸">
+					<dl>
+						<dt>사꾸</dt>
+						<dd>
+							친구들이 어려운 일에 처할때마다<br>
+							솔선수범하여 도와주는 착한 동물 친구<br>
+							슴꾸에요. 
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="footer">
+        
+		<div class="footer_top">
+			<div class="inner">
+				<div class="sns">
+					<ul>
+						<li><a href="https://twitter.com/"><img src="images/twitter.png" alt="twitter"></a></li>
+						<li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a></li>
+						<li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a></li>
+						<li><a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube"></a></li>
+					</ul>
+				</div>
+				<div class="lan_slect">
+					<div class="form_design">
+						<select name="" id="">
+							<option value="">KOREAN</option>
+							<option value="">ENGLISH</option>
+						</select>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="footer_main">
+			<div class="inner">
+				<a href="http://gitul.dothome.co.kr/neverland/main.html"><img src="images/footer_logo.png" alt="never_logo"></a>
+				<div class="fnb">
+					<ul>
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보처리방침</a></li>
+						<li><a href="#">채용문의</a></li>
+						<li><a href="#">사이트 맵</a></li>
+					</ul>
+				</div>
+				<div class="adress">
+					<p>
+						서울특별시 서초구 바우뫼로 87 네버(주)<br>
+						대표이사 : 이기철 | 사업자등록번호 : 123-45-6789 | 통신판매업 신고번호 : 제101-요정 킹더-01호 | 사업자정보확인<br>
+						고객상담센터 : 010-6435-4605(유료)<br>
+						Copyright © 2018 NEVER LAND. All rights reserved.
+					</p>
+				</div>
+			</div>
+		</div>
+        
+    </div>
+	
+	
+	
+</body>
+</html>

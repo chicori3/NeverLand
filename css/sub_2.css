@@ -1,0 +1,1023 @@
+body{
+    font-family:'ns';
+    font-size:15px;
+    font-weight:normal;
+    text-align:center;
+}
+.inner{
+    width:1200px;
+    margin:0 auto;
+    overflow:hidden;
+	position:relative;
+}
+.top_menu{
+    overflow:hidden;
+    width:100%;
+    height:130px;
+    background-color:#3b435d;
+}
+h1{
+    float:left;
+    margin-top:26px;
+}
+.gnb{
+    float:right;
+}
+.gnb ul{
+    overflow:hidden;
+}
+.gnb ul li{
+    float:left;
+    margin-top:55px;
+    margin-left:60px;
+}
+.gnb ul li a{
+    color:#fff;
+    font-size:18px;
+    font-weight:1000;
+}
+.gnb ul li a:hover{
+    color:#45aba8;
+}
+
+
+.main_visual{
+	position:relative;
+    width:100%;
+    height:883px;
+}
+
+.lover_visual{
+    height: 700px;
+    background:url(../images/lover.jpg) 50% 50% no-repeat;
+}
+.circus_visual{
+	height:700px;
+	background:url(../images/circus_visual.png) 50% 50% no-repeat;
+}
+
+.fairy_visual{
+	height:700px;
+	background:url(../images/fairy_visual.png) 50% 50% no-repeat;
+}
+
+.lion_visual{
+	height:700px;
+	background:url(../images/lion_visual.png) 50% 50% no-repeat;
+}
+
+.faq_visual{
+    height:700px;
+	background:url(../images/FAQ_visual.png) 50% 50% no-repeat;
+}
+
+.news_visual{
+	height:700px;
+	background:url(../images/news_visual.png) 50% 50% no-repeat;
+}
+
+.fairymakeup_visual{
+    height:700px;
+	background:url(../images/fairymakeup_visual.png) 50% 50% no-repeat;
+}
+
+.direction_visual{
+    height:700px;
+    background:url(../images/direction_visual.png) 50% 50% no-repeat;
+}
+
+.container{
+/*	margin-bottom:150px;*/
+}
+
+.circus_text{
+	margin-top:150px;
+}
+
+.fairy_text,.lion_text,.faq_text,.fairymakeup_text,.news_text,.direction_text{
+	margin-top:250px;
+}
+
+.circus_text span,.fairy_text span,.lion_text span,.faq_text span,.fairymakeup_text span,.news_text span,.direction_text span{
+	margin-bottom:15px;
+	display:block;
+	font-size:20px;
+	font-weight:1000;
+	color:#fff;
+}
+
+h2{
+	margin-top:20px;
+	margin-bottom:15px;
+	font-size:50px;
+	font-weight:1000;
+	color:#fff;
+}
+
+.circus_text strong,.fairy_text strong,.lion_text strong,.faq_text strong,.fairymakeup_text strong,.news_text strong,.direction_text strong{
+	font-size:30px;
+	font-weight:1000;
+	color:#fff;
+}
+
+.lnb{
+	overflow:hidden;
+}
+.home{
+	margin-top:38px;
+	margin-right:40px;
+	float:left;
+}
+.main_m{
+    width:160px;
+	float:left;
+}
+.bold{
+	margin-top:45px;
+	display:inline-block;
+	font-size:23px;
+	font-weight:1000;
+	color:#39445e;
+}
+.bold a{
+    color:#39445e;
+}
+.bold a img{
+    margin-top: -3px;
+    margin-left: 5px;
+}
+.main_m a img{
+	margin-top:-3px;
+	margin-left:5px;
+}
+.sub_m{
+	float:left;
+    width:160px;
+	margin-left:30px;
+}
+
+/*
+.sub_m a img{
+	margin-top:-3px;
+	margin-left:5px;
+}
+*/
+
+.sub_m2{
+    float:left;
+    width:210px;
+}
+
+/*
+.sub_m2 a img{
+    margin-top:42px;
+    margin-left:10px;    
+    float:left;   
+}
+*/
+
+/*
+.lnb p{
+	margin-top:45px;
+	margin-left:30px;
+	float:left;
+	font-size:23px;
+	font-weight:1000;
+	color:#39445e;
+}
+*/
+
+h3{
+	font-size:40px;
+	font-weight:1000;
+	color:#313131;
+}
+
+.sub_tit{
+    font-size:40px;
+	font-weight:1000;
+	color:#313131;
+    margin-top:100px;
+    text-align:left;
+}
+
+.sub_p{
+	font-size:20px;
+	font-weight:1000;
+	color:#313131;
+    margin-top:30px;
+    margin-bottom:100px;
+    text-align:left;
+}
+
+.sub_p img{
+	margin-top:1px;
+	margin-right:10px;
+}
+
+.circus_festa,.fairy_parade,.lion_visit,.dressing_room{
+	overflow:hidden;
+}
+
+.circus_festa img,.dressing_room img{
+	float:left;
+}
+
+.fairy_parade img{
+	float:right;
+}
+
+.lionvisit_img{
+	float:right;
+	margin-right:40px;
+}
+
+.lion{
+	margin-top:55px;
+}
+
+.lion_banner{
+	background-color:#ececec;
+	width:1200px;
+	height:370px;
+}
+
+.KN_logo{
+	margin-top:85px;
+	margin-left:30px;
+}
+
+.circusfesta_text,.dressingroom_text{
+	float:left;
+	margin-top:180px;
+	margin-left:80px;
+	text-align:left;
+}
+
+.fairyparade_text{
+	float:left;
+	margin-top:180px;
+	margin-left:80px;
+	text-align:left;
+}
+
+.lionvisit_text{
+	margin-top:50px;
+	margin-left:50px;
+	float:left;
+	text-align:left;
+}
+
+.circusfesta_text strong,.fairyparade_text strong,.lionvisit_text strong,.dressingroom_text strong{
+	display:inline-block;
+	margin-top:40px;
+	margin-bottom:35px;
+	font-size:20px;
+	font-weight:1000;
+	line-height:1.5;
+	color:#313131;
+}
+
+.circusfesta_text p,.fairyparade_text p,.lionvisit_text p,.dressingroom_text p{
+	margin-top:10px;
+	font-size:18px;
+	font-weight:normal;
+	color:#313131;
+}
+
+.circusfesta_text span,.fairyparade_text span,.lionvisit_text span,.dressingroom_text span{
+	display:inline-block;
+	margin-right:20px;
+	font-weight:1000;
+}
+
+.lion_comic{
+	margin-top:100px;
+}
+
+.cobox{
+	width:1158px;
+	margin:0 auto;
+}
+
+.comicbox_2,.comicbox_3,.comicbox_4{
+	margin-top:25px;
+}
+
+.comicbox_1,.comicbox_3{
+	overflow:hidden;
+}
+
+.co1,.co4{
+	float:left;
+}
+
+.co3,.co6{
+	float:right;
+}
+
+.circus_introduction,.parade_introduction,.makeup_introduction{
+	margin-top:100px;
+	overflow:hidden;
+}
+
+.introduction_text{
+	margin-top:150px;
+	margin-left:25px;
+	float:left;
+	text-align:left;
+	font-size:25px;
+	line-height:2;
+	color:#313131;
+}
+
+.parade_text{
+	float:right;
+}
+
+.makeup_text{
+    float:left;
+}
+
+.circus_introduction img,.makeup_introduction img{
+	float:right;
+}
+
+.parade_introduction img{
+	float:left;
+}
+
+.dot{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+h4{
+	margin-top:100px;
+	font-size:25px;
+	font-weight:1000;
+	text-align:left;
+	color:#313131;
+}
+
+.event_lion{
+	margin:0 auto;
+	width:1200px;
+	height:369px;
+	background:url(../images/lionevent_background.png);
+}
+
+.event_text h4{
+	margin-top:70px;
+	margin-left:80px;
+	color:#3b435d;
+}
+
+.event_text strong{
+	display:block;
+	text-align:left;
+	margin-top:40px;
+	margin-left:80px;
+	margin-bottom:35px;
+	font-size:28px;
+	font-weight:1000;
+	line-height:1.5;
+	color:#313131;
+}
+
+.event_text p{
+	margin-top:10px;
+	margin-left:80px;
+	text-align:left;
+	font-size:18px;
+	font-weight:normal;
+	color:#313131;
+}
+
+.event_text span{
+	font-weight:1000;
+	margin-right:20px;
+	color:#3b435d;
+}
+
+.circus_list,.parade_list{
+	height:800px;
+}
+
+.circus_list ul,.parade_list ul{
+	margin-top:55px;
+	position:relative;
+	overflow:hidden;
+}
+
+.circus_list li,.parade_list li{
+	margin-right:70px;
+	float:left;
+}
+
+.circus_list li:nth-child(3){
+	margin-right:0;
+}
+
+.parade_list li:nth-child(3){
+	margin-right:-15px;
+}
+
+.circus_list strong,.parade_list strong{
+	margin-top:20px;
+	display:block;
+	text-align:left;
+	font-size:24px;
+	font-weight:1000;
+	color:#313131;
+}
+
+.circus_list p,.parade_list p{
+	margin-top:20px;
+	text-align:left;
+	color:#313131;
+	line-height:2;
+}
+
+.left_b{
+	position:absolute;
+	top:400px;
+	left:25px;
+}
+
+.right_b{
+	position:absolute;
+	top:400px;
+	right:25px;
+}
+
+.list4,.list5,.list6{
+	display:none;
+}
+
+.parade_list .button{
+	display:none;
+}
+
+.makeup_ex{
+    margin-top:100px;
+    overflow:hidden;
+}
+
+.makeup_ex p{
+    float:left;
+    margin-top:20px;
+    margin-right:20px;
+    display:inline-block;
+    font-size:18px;
+}
+
+.fairy_makeup{
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+    height:1000px;
+}
+
+.makeup1{
+    position:absolute;
+    height:567px;
+    top:100px;
+    left:0;
+}
+
+.makeup2{
+    position:absolute;
+    top:100px;
+    right:0;
+}
+
+.makeup3{
+    position:absolute;
+    top:400px;
+    right:320px;
+}
+
+.makeup4{
+    position:absolute;
+    top:400px;
+    right:0;
+}
+
+.makeup5{
+    position:absolute;
+    top:700px;
+    left:0;
+}
+
+.faq_table{
+    width:1200px;
+	height:900px;
+    margin:0 auto;
+}
+
+.faq_top{
+    height:58px;
+    border:solid 1px #00a995;
+}
+
+.faq_top ul{
+    overflow:hidden;
+}
+
+.faq_top li{
+    width:199px;
+    height:58px;
+    float:left;
+}
+
+.faq_top li:hover{
+    background-color:#00a995;
+}
+
+.faq_top li:last-child{
+    width:203px;
+}
+
+.faq_top a:hover{
+    color:#fff;
+}
+
+.faq_top a{
+    display:block;
+    padding-top:20px;
+    height:39px;
+    font-size:18px;
+    font-weight:1000;
+    color:#222;
+}
+
+.faq_body ul{
+    overflow:hidden;
+    height:105px;
+    border-bottom:solid 1px #00a995;
+}
+
+.faq_body li{
+    float:left;
+}
+
+.faq_body a{
+    padding-top:48px;
+    padding-left:30px;
+    display:block;
+    font-size:16px;
+    color:#222;
+}
+
+.faq_body img{
+    margin-top:35px;
+    margin-left:30px;
+}
+
+.faq_footer ul,.table_number ul{
+    overflow:hidden;
+    margin-top:55px;
+    margin-left:400px;
+}
+
+.faq_footer,.table_number{
+    position:relative;
+}
+
+.faq_footer:before{
+    display:block;
+    content:'<';
+    font-size:30px;
+    font-weight:1000;
+    position:absolute;
+    top:5px;
+    left:355px;
+}
+
+.faq_footer:after{
+    display:block;
+    content:'>';
+    font-size:30px;
+    font-weight:1000;
+    position:absolute;
+    top:5px;
+    left:780px;
+}
+
+.table_number:before{
+	display:block;
+    content:'<';
+    font-size:30px;
+    font-weight:1000;
+    position:absolute;
+    top:5px;
+    left:355px;
+}
+
+.table_number:after{
+	display:block;
+    content:'>';
+    font-size:30px;
+    font-weight:1000;
+    position:absolute;
+    top:5px;
+    left:780px;
+}
+
+.faq_footer li,.table_number li{
+    float:left;
+    margin-left:15px;
+}
+
+.faq_footer a,.table_number a{
+    padding-top:10px;
+    display:block;
+    font-size:22px;
+    flex-wrap:1000;
+    color:#222;
+    width:40px;
+    height:30px;
+    border:solid 1px #ccc;
+}
+
+.faq_footer a:hover{
+    background-color:#00a995;
+    border:solid 1px #00a995;
+    color:#fff;
+}
+
+.table_number a:hover{
+	background-color:#00a995;
+    border:solid 1px #00a995;
+    color:#fff;
+}
+
+.table_number{
+	width:1200px;
+	margin:0 auto;
+}
+
+.neverland_news p{
+	margin-bottom:35px;
+	text-align:left;
+	font-size:18px;
+	font-weight:1000;
+	color:#707070;
+}
+
+.neverland_news span{
+	color:#39aba8;
+}
+
+table{
+	width:1200px;
+	margin:0 auto;
+}
+
+caption{
+	display:none;
+}
+
+thead{
+	border-top:solid 3px #3b435d;
+	border-bottom:solid 3px #3b435d;
+}
+
+thead tr{
+	height:70px;
+}
+
+thead th{
+	padding-top:23px;
+	font-size:20px;
+	font-weight:1000;
+	color:#3b435d;
+}
+
+tbody tr{
+	height:90px;
+	border-bottom:solid 1px #ebebeb;
+}
+
+tbody{
+	border-bottom:solid 3px #3b435d;
+}
+
+tbody td{
+	padding-top:40px;
+	font-size:16px;
+	color:#707070;
+}
+
+tbody td a{
+	font-weight:1000;
+	color:#313131;
+}
+
+.table_search{
+	overflow:hidden;
+}
+
+.form_design_news1{
+	float:left;
+	margin-top:55px;
+	margin-left:300px;
+	width:95px;
+	height:50px;
+	background:#fff;
+	border:solid 6px #39aba8;
+	border-radius:0;
+}
+
+.form_design_news2{
+	position:relative;
+	float:left;
+	margin-top:55px;
+	margin-left:30px;
+	width:400px;
+	height:50px;
+	background:#fff;
+	border:solid 6px #39aba8;
+}
+
+input{
+	width:397px;
+	height:44px;
+	font-size:18px;
+}
+
+button{
+	position:absolute;
+	top:-1px;
+	right:0;
+	width:50px;
+	height:50px;
+	border:none;
+	background:none;
+}
+
+button img{
+}
+
+.news_select{
+	background:#fff;
+	border-radius:0;
+	color:#707070;
+	font-weight:1000;
+}
+
+.direction_loction{
+    overflow:hidden;
+}
+
+.direction_loction img{
+    float:left;
+}
+
+.direction_loction p{
+    float:left;
+    font-size:22px;
+    font-weight:normal;
+}
+
+.Transportation{
+	overflow:hidden;
+}
+
+.Subway{
+	float:left;
+	margin-top:65px;
+	margin-left:150px;
+}
+
+.bus{
+	float:right;
+	margin-top:65px;
+	margin-right:150px;
+}
+
+.bus p{
+	margin-bottom:35px;
+	font-size:20px;
+}
+
+.red p,.yellow p{
+	display:inline-block;
+	font-size:20px;
+}
+
+.red span,.yellow span{
+	font-size:20px;
+}
+
+.red img,.yellow img{
+	margin-right:5px;
+}
+
+.yellow{
+	margin-top:35px;
+}
+
+.Transportation strong{
+	display:block;
+	margin-bottom:60px;
+	font-size:22px;
+	font-weight:1000;
+	color:#000;
+}
+
+.Adventure,.general{
+	float:left;
+	margin-top:90px;
+	margin-left:100px;
+	overflow:hidden;
+	width:390px;
+	height:180px;
+}
+
+.general{
+	margin-left:222px;
+}
+
+.Adventure p,.general p{
+	padding-top:20px;
+	width:390px;
+	height:40px;
+	background-color:#d9eeed;
+	font-size:22px;
+	font-weight:1000;
+	color:#000;
+}
+
+.Adventure span,.general span{
+	padding-top:50px;
+	float:left;
+	display:block;
+	font-size:16px;
+	font-weight:normal;
+	color:#151515;
+	width:193px;
+	height:68px;
+	border-bottom:solid 2px #d9eeed;
+}
+
+.parking_b{
+	display:block;
+	width:190px;
+	border-right:solid 2px #d9eeed; 
+}
+
+.footer{
+    margin-top: 130px;
+	height:447px;
+	background-color:#3b435d;
+}
+.footer_top{
+	overflow:hidden;
+	height:85px;
+	background-color:#39aba8;
+}
+.sns{
+	margin-top:28px;
+	float:left;
+}
+.sns ul{
+	overflow:hidden;
+}
+.sns li{
+	margin-right:80px;
+	float:left;
+}
+.form_design{
+	float:right;
+	color:#fff;
+	border:solid 3px #fff;
+	border-radius:100px;
+	width:180px;
+	height:35px;
+}
+.lan_slect{
+	margin-top:20px;
+}
+select{
+	padding-left:8px;
+	display:block;
+	width:100%;
+	height:100%;
+	border:0;
+	border-radius:100px;
+	background-color:#39aba8;
+	color:#fff;
+	font-size:18px;
+}
+.footer_main{
+	overflow:hidden;
+	position:relative;
+}
+.footer_main:before{
+	content:'';
+	display:block;
+	position:absolute;
+	top:-50px;
+	left:50%;
+	width:80px;
+	height:80px;
+	background:#39aba8;
+	transform:translateX(-50%) rotate(45deg);
+}
+.footer_main img{
+	margin-top:65px;
+	float:left;
+}
+.fnb{
+	margin-top:130px;
+	margin-left:350px;
+}
+.fnb ul{
+	overflow:hidden;
+}
+.fnb ul li{
+	float:left;
+	margin-right:10px;
+}
+.fnb ul li a{
+	color:#fff;
+}
+.adress{
+	margin-top:20px;
+	margin-left:350px;
+	text-align:left;
+	color:#fff;
+	line-height:2;
+}
+.fnb ul li:after{
+	content:'ㅣ';
+	display:inline-block;
+	margin-left:10px;
+	color:#fff;
+}
+.fnb ul li:last-child:after{
+	content:''
+}
+.reservation_visual{
+	height:700px;
+    background:url(../images/reservation_visual.png) 50% 50% no-repeat;
+}
+.fairy_text,.lion_text,.faq_text,.fairymakeup_text,.news_text,.direction_text,.reservation_text{
+	margin-top:250px;
+}
+.circus_text span,.fairy_text span,.lion_text span,.faq_text span,.fairymakeup_text span,.news_text span,.direction_text span,.reservation_text span{
+	margin-bottom:15px;
+	display:block;
+	font-size:20px;
+	font-weight:1000;
+	color:#fff;
+}
+.circus_text strong,.fairy_text strong,.lion_text strong,.faq_text strong,.fairymakeup_text strong,.news_text strong,.direction_text strong,.reservation_text strong{
+	font-size:30px;
+	font-weight:1000;
+	color:#fff;
+}
+.ticket_01,.ticket_02,.ticket_03{
+	margin-bottom:50px;
+	overflow:hidden;
+	border:solid 1px #3e3e3e;
+}
+
+.ticket_01 img,.ticket_02 img,.ticket_03 img{
+	float:left;
+}
+
+.ticket_text{
+	margin-top:50px;
+	margin-left:50px;
+	text-align:left;
+	float:left;
+}
+
+.ticket_text strong{
+	font-size:28px;
+	font-weight:1000;
+	color:#39aba8;
+}
+
+.ticket_text p{
+	margin-top:25px;
+	font-size:18px;
+	color:#313131;
+}
+
+.ticket_text a{
+	margin-top:40px;
+	text-align:center;
+	padding-top:10px;
+	display:block;
+	width:95px;
+	height:25px;
+	border:solid 3px #313131;
+	border-radius:15px;
+	color:#313131;
+	font-size:18px;
+	font-weight:1000;
+}
