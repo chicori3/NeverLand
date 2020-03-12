@@ -9,4 +9,4 @@ It's a virtual theme park.
 </ul>
 
 # You can try
-http://chicori3.github.io/neverland/index.html
+https://chicori3.github.io/neverland
