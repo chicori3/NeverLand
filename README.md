@@ -1,5 +1,5 @@
 # NeverLand
-It's a virtual theme park.
+It's a web page with a concept of a virtual theme park.
 
 # Features
 <ul>
