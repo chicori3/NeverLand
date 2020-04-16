@@ -6,4 +6,5 @@
 
 - UI Design
 - Illustration
-- Jquery
+- Jquery   
+> 제작 당시 반응형 웹에 대해 배우지 않아 보기 불편할 수 있습니다.
